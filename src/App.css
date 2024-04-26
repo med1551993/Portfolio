@@ -7,7 +7,9 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
+  /* --primaryColor: #e0a80d;*/
+  --primaryColor: #f51720;
+
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -75,6 +77,11 @@ header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header .logo img {
+  width: 150px;
+  height: 80px;
 }
 header {
   display: flex;
@@ -191,7 +198,14 @@ header a {
 
 .about_img {
   width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.about_img img {
+  width: 210px;
+}
+
 .about_content {
   width: 60%;
 }

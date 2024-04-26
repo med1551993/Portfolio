@@ -6,7 +6,7 @@ const About = () => {
       <div className="container about">
         <div className="about_img ">
           <img
-            src="./images/man.png"
+            src="./images/man1.png"
             alt="profile_photo"
             data-aos="fade-down-right"
           />
@@ -15,16 +15,16 @@ const About = () => {
         <div className="about_content" data-aos="fade-down-left">
           <h2 data-aos="zoom-in-down">About Me</h2>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            blanditiis odit repellendus ducimus adipisci rem soluta totam sunt?
+            Architecto rem perferendis consequuntur impedit aliquam aliquid
+            aperiam ipsa blanditiis et error.
           </p>
           <p>
-            magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-            quisquam est, qui dolorem ipsum quia dolor si voluptatem quia
-            voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+            qui, dolor sint maxime illum vitae enim vero et consectetur
+            cupiditate tenetur consequatur perferendis eveniet quasi. Ut
+            distinctio maxime totam corporis!
           </p>
           <button>Download CV</button>
           {/* <button className="primaryBtn">Download CV</button> */}

@@ -228,7 +228,7 @@ export const contact = [
     id: 1,
     icon: <AddLocationAltOutlined />,
     text1: "6052 street Street, street 124",
-    text2: "Tunis, TN, 98101",
+    text2: "lorem, LR, 98101",
   },
   { id: 2, icon: <PhoneIphone />, text1: "0123456789", text2: "0345627891" },
   {

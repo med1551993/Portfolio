@@ -11,7 +11,7 @@ const Header = () => {
       <header>
         <div className="container flexSB">
           <div className="logo">
-            <img src="./images/logo.png" data-aos="zoom-in-right" alt="logo" />
+            <img src="./images/logo1.png" data-aos="zoom-in-right" alt="logo" />
           </div>
           <div className={responsive ? "hideMenu" : "nav"}>
             {navlink.map((link) => (
