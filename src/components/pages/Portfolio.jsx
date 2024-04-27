@@ -20,7 +20,7 @@ const Portfolio = () => {
       <div className="Portfolio">
         <div className="container">
           <h2 data-aos="zoom-in-down">Portfolio</h2>
-          <div className="btn">
+        {/*   <div className="btn">
             {allCategory.map((item) => (
               <button
                 key={item.id}
@@ -31,11 +31,11 @@ const Portfolio = () => {
                 {item}
               </button>
             ))}
-          </div>
+          </div> */}
 
           <div className="portfolio_content grid3">
             {list.map((item) => (
-              <div className="protfilio_card" key={item.id} data-aos="fade-up">
+              <div className="protfolio_card" key={item.id} data-aos="fade-up">
                 <div className="img">
                   <img src={item.cover} alt="card" />
                 </div>

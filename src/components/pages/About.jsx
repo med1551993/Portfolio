@@ -13,6 +13,7 @@ const About = () => {
         </div>
 
         <div className="about_content" data-aos="fade-down-left">
+          <span>Who Am I ?</span>
           <h2 data-aos="zoom-in-down">About Me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora

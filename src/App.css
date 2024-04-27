@@ -129,19 +129,24 @@ header a {
   border: 2px solid var(--primaryColor);
   background: none;
 }
+
 .hero {
   height: 90vh;
   display: flex;
   align-items: center;
   /*  justify-content: center; */
   position: relative;
+  background-color:rgba(47, 48, 48, 0.9)
+
 }
 .hero::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../public/images/home-bg.png");
+ /*  background-image: url("../public/images/home-bg.png"); */
+ background-image: url("../public/images/home-bg1.png");
+  filter: blur(5px);
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
@@ -162,6 +167,15 @@ header a {
   font-size: 60px;
   color: var(--primaryColor);
   font-weight: 600;
+}
+.heroContainer .logos img {
+  width: 60px;
+}
+.heroContainer .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 @media screen and (max-width: 768px) {
   .hero {
@@ -380,14 +394,14 @@ header a {
 
 .Portfolio img {
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
 
 .portfolio_content {
   margin-top: 40px;
 }
 
-.protfilio_card {
+.protfolio_card {
   position: relative;
   transition: 0.5s;
 }
@@ -412,7 +426,7 @@ header a {
   font-weight: 400;
 }
 
-.protfilio_card:hover .overlay {
+.protfolio_card:hover .overlay {
   opacity: 1;
 }
 
@@ -504,6 +518,8 @@ header a {
 
 .blog img {
   width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
 }
 
 .blog .blog_card {
@@ -550,7 +566,7 @@ header a {
   justify-content: center;
 }
 .contact .left {
-  width: 65%;
+  width: 60%;
 }
 
 .contact .flex {
@@ -577,6 +593,21 @@ header a {
   outline: none;
   margin: 10px 0;
   border-radius: 5px;
+}
+
+.box1 {
+  display: flex;
+  gap: 20px;
+}
+
+.box1 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  align-self: start;
 }
 
 @media screen and (max-width: 768px) {
