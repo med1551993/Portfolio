@@ -15,7 +15,7 @@ const Header = () => {
           </div>
           <div className={responsive ? "hideMenu" : "nav"}>
             {navlink.map((link) => (
-              <Link to={link.url} key={link.id} data-aos="zoom-in-left">
+              <Link to={link.url} key={link.id} data-aos="zoom-in-left" onClick={() => setResponsive(!responsive)}>
                 {link.text}
               </Link>
             ))}

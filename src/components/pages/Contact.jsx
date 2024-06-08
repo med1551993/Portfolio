@@ -13,24 +13,15 @@ const Contact = () => {
                 <h3>Let's get in touch</h3>
                 <p>I'm open for any suggestion or just to have a chat</p>
                   {contact.map((item) => (
-                      <div className="box box1" key={item.id} data-aos="zoom-in">
+                      <div className="box1" key={item.id} data-aos="zoom-in">
                             <i>{item.icon}</i>
                             <p>{item.text1}</p>
-                           {/*  <p>{item.text2}</p> */}
                       </div>
                   ))}
               </div>
 
             <div className="left">
               <form>
-                {/* <div className="flex">
-                  <input type="text" placeholder="Name" data-aos="flip-left" />
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    data-aos="flip-right"
-                  />
-                </div> */}
                  <input type="text" placeholder="Name" data-aos="flip-up" /> 
                  <input type="text" placeholder="Email" data-aos="flip-up" /> 
                 <textarea
